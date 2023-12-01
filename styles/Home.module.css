@@ -3,13 +3,35 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+}
+
+.section {
+  display: grid;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+}
+
+.h1 {
+  color: #1c5480;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.div {
+  margin-top: 8px;
+  display: grid;
+  place-items: center;
+}
+
+.h2 {
+  color: #0099ff;
+  font-size: 21px;
+  margin: 0;
 }
 
 .footer {
